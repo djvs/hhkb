@@ -22,7 +22,7 @@ perl -pi -e 's/^("1uF.*)/$1,"C28323"/' jlcpcb-bom.editing.csv
 perl -pi -e 's/^("10uF.*)/$1,"C15850"/' jlcpcb-bom.editing.csv
 perl -pi -e 's/^("Conn_01x04.*)/$1,"C160404"/' jlcpcb-bom.editing.csv
 perl -pi -e 's/^("10k.*)/$1,"C17414"/' jlcpcb-bom.editing.csv
-perl -pi -e 's/^("ATmega32U4.*)/$1,"C44854"/' jlcpcb-bom.editing.csv
+perl -pi -e 's/^("ATmega32U4.*)/$1,"C112161"/' jlcpcb-bom.editing.csv
 perl -pi -e 's/^("16MHz.*)/$1,"C13738"/' jlcpcb-bom.editing.csv
 perl -pi -e 's/^("22pF.*)/$1,"C1804"/' jlcpcb-bom.editing.csv
 perl -pi -e 's/^("22".*)/$1,"C17561"/' jlcpcb-bom.editing.csv
