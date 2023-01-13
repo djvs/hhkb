@@ -4196,7 +4196,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 195.58 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061407b25)
-    (property "Reference" "SW_F13" (at 196.4182 98.4758 0)
+    (property "Reference" "SW_F1" (at 196.4182 98.4758 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 196.4182 100.3554 0)
@@ -4213,7 +4213,7 @@
     (instances
       (project "hhkb"
         (path "/151da08b-0979-4785-a9bf-6fa9b165d629"
-          (reference "SW_F13") (unit 1)
+          (reference "SW_F1") (unit 1)
         )
       )
     )
