@@ -1,4 +1,4 @@
-# hhkb[2]
+# hhkb
 
 ![Screenshot of PCB](screenshot.png)
 
