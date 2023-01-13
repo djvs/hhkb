@@ -1,5 +1,5 @@
 Drill report for hhkb.kicad_pcb
-Created on Tue 26 Oct 2021 12:01:35 AM EDT
+Created on Thu 12 Jan 2023 09:18:54 PM EST
 
 Copper Layer Stackup:
     =============================================================
@@ -10,19 +10,19 @@ Copper Layer Stackup:
 Drill file 'hhkb-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.400mm  0.0157"  (476 holes)
-    T2  0.900mm  0.0354"  (12 holes)
-    T3  1.470mm  0.0579"  (436 holes)
-    T4  5.000mm  0.1969"  (2 holes)
+    T1  0.400mm  0.0157"  (228 holes)
+    T2  0.900mm  0.0354"  (24 holes)
+    T3  1.470mm  0.0579"  (244 holes)
+    T4  2.000mm  0.0787"  (120 holes)
 
-    Total plated holes count 926
+    Total plated holes count 616
 
 
 Drill file 'hhkb-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  1.750mm  0.0689"  (218 holes)
-    T2  3.048mm  0.1200"  (14 holes)
-    T3  3.988mm  0.1570"  (123 holes)
+    T1  1.750mm  0.0689"  (122 holes)
+    T2  3.048mm  0.1200"  (2 holes)
+    T3  3.988mm  0.1570"  (63 holes)
 
-    Total unplated holes count 355
+    Total unplated holes count 187
