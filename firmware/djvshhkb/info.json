@@ -1,0 +1,145 @@
+{
+    "manufacturer": "djvs",
+    "keyboard_name": "djvshhkb",
+    "maintainer": "djvs",
+    "_invalid": {
+        "no_action_function": true,
+        "no_action_macro": true
+    },
+    "bootloader": "atmel-dfu",
+    "config_h_features": {
+        "audio": false,
+        "backlight": false,
+        "bluetooth": false,
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgblight": true,
+        "sleep_led": false
+    },
+    "debounce": 5,
+    "diode_direction": "COL2ROW",
+    "dynamic_keymap": {
+        "layer_count": 2
+    },
+    "features": {
+        "audio": false,
+        "backlight": false,
+        "bluetooth": false,
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgblight": true,
+        "sleep_led": false
+    },
+    "height": 2,
+    "keyboard_folder": "djvshhkb",
+    "keymaps": {},
+    "matrix_pins": {
+        "cols": ["D4", "D6", "D7", "B4", "B5", "B6", "B3"],
+        "rows": ["D1", "F5", "F6", "D2", "B1", "F0", "F7", "D5", "D3"]
+    },
+    "matrix_size": {
+        "cols": 7,
+        "rows": 9
+    },
+    "mouse_key": {
+        "enabled": true
+    },
+    "parse_errors": ["NO_ACTION_MACRO in config.h is no longer a valid option and should be removed", "NO_ACTION_FUNCTION in config.h is no longer a valid option and should be removed"],
+    "parse_warnings": ["PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date", "VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date", "PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date", "MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date", "DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date"],
+    "platform": "unknown",
+    "processor": "atmega32u4",
+    "processor_type": "avr",
+    "protocol": "LUFA",
+    "rgblight": {
+        "layers": {
+            "enabled": false
+        },
+        "pin": "F4"
+    },
+    "url": "https://github.com/djvs/hhkb",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x9209",
+        "vid": "0x1209"
+    },
+    "width": 3,
+    "layouts": {
+        "LAYOUT": {
+            "c_macro": true,
+            "filename": "keyboards/djvshhkb/djvshhkb.h",
+            "layout": [
+                { "label": "K000", "matrix": [0, 0], "w": 1, "x": 0, "y": 0 },
+                { "label": "K001", "matrix": [0, 1], "w": 1, "x": 1, "y": 0 },
+                { "label": "K002", "matrix": [0, 2], "w": 1, "x": 2, "y": 0 },
+                { "label": "K003", "matrix": [0, 3], "w": 1, "x": 3, "y": 0 },
+                { "label": "K004", "matrix": [0, 4], "w": 1, "x": 4, "y": 0 },
+                { "label": "K005", "matrix": [0, 5], "w": 1, "x": 5, "y": 0 },
+                { "label": "K006", "matrix": [0, 6], "w": 1, "x": 6, "y": 0 },
+                { "label": "K100", "matrix": [1, 0], "w": 1, "x": 7, "y": 0 },
+                { "label": "K101", "matrix": [1, 1], "w": 1, "x": 8, "y": 0 },
+                { "label": "K102", "matrix": [1, 2], "w": 1, "x": 9, "y": 0 },
+                { "label": "K103", "matrix": [1, 3], "w": 1, "x": 10, "y": 0 },
+                { "label": "K104", "matrix": [1, 4], "w": 1, "x": 11, "y": 0 },
+                { "label": "K105", "matrix": [1, 5], "w": 1, "x": 12, "y": 0 },
+                { "label": "K106", "matrix": [1, 6], "w": 1, "x": 13, "y": 0 },
+                { "label": "K200", "matrix": [2, 0], "w": 1, "x": 14, "y": 0 },
+                { "label": "K201", "matrix": [2, 1], "w": 1, "x": 15, "y": 0 },
+                { "label": "K202", "matrix": [2, 2], "w": 1, "x": 16, "y": 0 },
+                { "label": "K203", "matrix": [2, 3], "w": 1, "x": 17, "y": 0 },
+                { "label": "K204", "matrix": [2, 4], "w": 1, "x": 18, "y": 0 },
+                { "label": "K205", "matrix": [2, 5], "w": 1, "x": 19, "y": 0 },
+                { "label": "K206", "matrix": [2, 6], "w": 1, "x": 20, "y": 0 },
+                { "label": "K300", "matrix": [3, 0], "w": 1, "x": 21, "y": 0 },
+                { "label": "K301", "matrix": [3, 1], "w": 1, "x": 22, "y": 0 },
+                { "label": "K302", "matrix": [3, 2], "w": 1, "x": 23, "y": 0 },
+                { "label": "K303", "matrix": [3, 3], "w": 1, "x": 24, "y": 0 },
+                { "label": "K304", "matrix": [3, 4], "w": 1, "x": 25, "y": 0 },
+                { "label": "K305", "matrix": [3, 5], "w": 1, "x": 26, "y": 0 },
+                { "label": "K306", "matrix": [3, 6], "w": 1, "x": 27, "y": 0 },
+                { "label": "K400", "matrix": [4, 0], "w": 1, "x": 28, "y": 0 },
+                { "label": "K401", "matrix": [4, 1], "w": 1, "x": 29, "y": 0 },
+                { "label": "K402", "matrix": [4, 2], "w": 1, "x": 30, "y": 0 },
+                { "label": "K403", "matrix": [4, 3], "w": 1, "x": 31, "y": 0 },
+                { "label": "K404", "matrix": [4, 4], "w": 1, "x": 32, "y": 0 },
+                { "label": "K405", "matrix": [4, 5], "w": 1, "x": 33, "y": 0 },
+                { "label": "K406", "matrix": [4, 6], "w": 1, "x": 34, "y": 0 },
+                { "label": "K500", "matrix": [5, 0], "w": 1, "x": 35, "y": 0 },
+                { "label": "K501", "matrix": [5, 1], "w": 1, "x": 36, "y": 0 },
+                { "label": "K502", "matrix": [5, 2], "w": 1, "x": 37, "y": 0 },
+                { "label": "K503", "matrix": [5, 3], "w": 1, "x": 38, "y": 0 },
+                { "label": "K504", "matrix": [5, 4], "w": 1, "x": 39, "y": 0 },
+                { "label": "K505", "matrix": [5, 5], "w": 1, "x": 40, "y": 0 },
+                { "label": "K506", "matrix": [5, 6], "w": 1, "x": 41, "y": 0 },
+                { "label": "K600", "matrix": [6, 0], "w": 1, "x": 42, "y": 0 },
+                { "label": "K601", "matrix": [6, 1], "w": 1, "x": 43, "y": 0 },
+                { "label": "K602", "matrix": [6, 2], "w": 1, "x": 44, "y": 0 },
+                { "label": "K603", "matrix": [6, 3], "w": 1, "x": 45, "y": 0 },
+                { "label": "K604", "matrix": [6, 4], "w": 1, "x": 46, "y": 0 },
+                { "label": "K605", "matrix": [6, 5], "w": 1, "x": 47, "y": 0 },
+                { "label": "K606", "matrix": [6, 6], "w": 1, "x": 48, "y": 0 },
+                { "label": "K700", "matrix": [7, 0], "w": 1, "x": 49, "y": 0 },
+                { "label": "K701", "matrix": [7, 1], "w": 1, "x": 50, "y": 0 },
+                { "label": "K702", "matrix": [7, 2], "w": 1, "x": 51, "y": 0 },
+                { "label": "K703", "matrix": [7, 3], "w": 1, "x": 52, "y": 0 },
+                { "label": "K704", "matrix": [7, 4], "w": 1, "x": 53, "y": 0 },
+                { "label": "K705", "matrix": [7, 5], "w": 1, "x": 54, "y": 0 },
+                { "label": "K706", "matrix": [7, 6], "w": 1, "x": 55, "y": 0 },
+                { "label": "K800", "matrix": [8, 0], "w": 1, "x": 56, "y": 0 },
+                { "label": "K801", "matrix": [8, 1], "w": 1, "x": 57, "y": 0 },
+                { "label": "K802", "matrix": [8, 2], "w": 1, "x": 58, "y": 0 },
+                { "label": "K803", "matrix": [8, 3], "w": 1, "x": 59, "y": 0 },
+                { "label": "K804", "matrix": [8, 4], "w": 1, "x": 60, "y": 0 },
+                { "label": "K805", "matrix": [8, 5], "w": 1, "x": 61, "y": 0 },
+                { "label": "K806", "matrix": [8, 6], "w": 1, "x": 62, "y": 0 }
+            ]
+        }
+    }
+}
