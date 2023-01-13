@@ -29,7 +29,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW_ENTER1","MX-NoLED","mx-nec-alps",263.504750,-48.803500,0.000000,top
 "SW_EQ1","MX-NoLED","mx-nec-alps",237.311000,-10.703500,0.000000,top
 "SW_ESC1","MX-NoLED","mx-nec-alps",8.711000,-10.703500,0.000000,top
-"SW_F13","MX-NoLED","mx-nec-alps",99.198500,-48.803500,0.000000,top
+"SW_F1","MX-NoLED","mx-nec-alps",99.198500,-48.803500,0.000000,top
 "SW_G1","MX-NoLED","mx-nec-alps",118.248500,-48.803500,0.000000,top
 "SW_H1","MX-NoLED","mx-nec-alps",137.298500,-48.803500,0.000000,top
 "SW_I1","MX-NoLED","mx-nec-alps",170.636000,-29.753500,0.000000,top
